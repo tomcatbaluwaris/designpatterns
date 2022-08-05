@@ -12,3 +12,5 @@ C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Mid
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\MiddleLayer.pdb
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\obj\Debug\WinFormCustomer.FrmCustomer.resources
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\obj\Debug\WinFormCustomer.csproj.CopyComplete
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Factory.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Factory.pdb
