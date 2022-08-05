@@ -1,0 +1,9 @@
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\Factory\bin\Debug\Factory.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\Factory\bin\Debug\Factory.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\Factory\bin\Debug\MiddleLayer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\Factory\bin\Debug\MiddleLayer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\Factory\obj\Debug\Factory.csproj.AssemblyReference.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\Factory\obj\Debug\Factory.csproj.CoreCompileInputs.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\Factory\obj\Debug\Factory.csproj.CopyComplete
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\Factory\obj\Debug\Factory.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\Factory\obj\Debug\Factory.pdb
