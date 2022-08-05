@@ -1,0 +1,6 @@
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\bin\Debug\MiddleLayer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\bin\Debug\MiddleLayer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\obj\Debug\MiddleLayer.csproj.AssemblyReference.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\obj\Debug\MiddleLayer.csproj.CoreCompileInputs.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\obj\Debug\MiddleLayer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\obj\Debug\MiddleLayer.pdb

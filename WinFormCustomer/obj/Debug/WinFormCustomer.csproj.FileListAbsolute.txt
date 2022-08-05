@@ -1,0 +1,14 @@
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\WinFormCustomer.exe.config
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\WinFormCustomer.exe
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\WinFormCustomer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\obj\Debug\WinFormCustomer.csproj.AssemblyReference.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\obj\Debug\WinFormCustomer.csproj.SuggestedBindingRedirects.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\obj\Debug\WinFormCustomer.Properties.Resources.resources
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\obj\Debug\WinFormCustomer.csproj.GenerateResource.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\obj\Debug\WinFormCustomer.csproj.CoreCompileInputs.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\obj\Debug\WinFormCustomer.exe
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\obj\Debug\WinFormCustomer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\MiddleLayer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\MiddleLayer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\obj\Debug\WinFormCustomer.FrmCustomer.resources
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\obj\Debug\WinFormCustomer.csproj.CopyComplete
