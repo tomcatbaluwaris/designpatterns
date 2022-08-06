@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DateValidator.cs" />
     <Compile Include="FrmCustomer.cs">
       <SubType>Form</SubType>
     </Compile>

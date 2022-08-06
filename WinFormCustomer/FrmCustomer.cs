@@ -34,7 +34,8 @@ namespace WinFormCustomer
 
         private void Validate_Click(object sender, EventArgs e)
         {
-            _customer.Validate();
+            SetCustomer();
+            _customerBase.Validate();
         }
 
         private void FrmCustomer_Load(object sender, EventArgs e)
@@ -42,9 +43,21 @@ namespace WinFormCustomer
 
         }
 
+        private void SetCustomer()
+        {
+            _customerBase.CustomerName = customerType.Text;
+            _customerBase.CustomerName = customerName.Text;
+            _customerBase.PhoneNumber = phoneNumber.Text;
+            _customerBase.BillAmount = Convert.ToDecimal(billAmount.Text);
+            _customerBase.BillDate = Convert.ToDateTime(billDate.Text);
+            _customerBase.Address = address.Text;
+
+        }
+
+
         private void customerType_SelectedIndexChanged(object sender, EventArgs e)
         {
-            _customerBase = FactoryCustomer.Create(comboBox1.Text);
+            _customerBase = FactoryCustomer.Create(customerType.Text);
         }
     }
 }

@@ -1,10 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddleLayer", "MiddleLayer\MiddleLayer.csproj", "{1E9747D9-F880-4BD6-808F-1E5F1ADAA96E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormCustomer", "WinFormCustomer\WinFormCustomer.csproj", "{93BEB60B-C480-4AF3-986F-868FCFE8CF0A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{8E6F3F1F-1728-4710-97DF-5E9D14C89EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerProjectTest", "CustomerProjectTest\CustomerProjectTest.csproj", "{4F2D739A-BAF1-4A07-9CDF-AB839CB22F1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,5 +29,15 @@ Global
 		{8E6F3F1F-1728-4710-97DF-5E9D14C89EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E6F3F1F-1728-4710-97DF-5E9D14C89EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E6F3F1F-1728-4710-97DF-5E9D14C89EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2D739A-BAF1-4A07-9CDF-AB839CB22F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2D739A-BAF1-4A07-9CDF-AB839CB22F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2D739A-BAF1-4A07-9CDF-AB839CB22F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2D739A-BAF1-4A07-9CDF-AB839CB22F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8DDEAEE6-EA30-4B70-BA2C-86B2635F0944}
 	EndGlobalSection
 EndGlobal
