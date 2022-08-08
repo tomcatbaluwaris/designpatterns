@@ -1,4 +1,6 @@
-﻿namespace WinFormCustomer
+﻿using InterfaceCustomer.Properties;
+
+namespace WinFormCustomer
 {
     partial class FrmCustomer
     {
@@ -169,7 +171,7 @@
             // 
             // customerBindingSource
             // 
-            this.customerBindingSource.DataSource = typeof(MiddleLayer.Customer);
+            this.customerBindingSource.DataSource = typeof(ICustomer);
             // 
             // label7
             // 

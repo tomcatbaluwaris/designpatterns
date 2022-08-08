@@ -14,3 +14,15 @@ C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\obj\Debug\Win
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\obj\Debug\WinFormCustomer.csproj.CopyComplete
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Factory.dll
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Factory.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\InterfaceCustomer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Unity.Abstractions.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Unity.Container.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\InterfaceCustomer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Unity.Abstractions.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Unity.Container.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Microsoft.Practices.ServiceLocation.xml

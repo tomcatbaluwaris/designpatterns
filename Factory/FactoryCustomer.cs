@@ -1,24 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Dynamic;
+using InterfaceCustomer.Properties;
+using Microsoft.Practices.Unity;
 using MiddleLayer;
 
 namespace Factory
 {
     public static class FactoryCustomer // Simple Factory Pattern
     {
-        private static Dictionary<string, CustomerBase> customers = new Dictionary<string, CustomerBase>();
+        private static IUnityContainer _unityContainer;
+        private static Dictionary<string, ICustomer> customers = new Dictionary<string, ICustomer>();
         
         // private static Lazy<Dictionary<string, CustomerBase>> customers = new Lazy<Dictionary<string, CustomerBase>>();
 
         //Design Pattern RIP Pattern => Replace if with polymorphismn
         static FactoryCustomer()
         {
-             
-             if (customers.Count == 0) {
-            customers.Add("Lead", new Lead());
-            customers.Add("Customer", new Customer());
-            }
         }
         
         // static FactoryCustomer()
@@ -27,11 +25,19 @@ namespace Factory
         //     customers.Value.Add("Customer", new Customer());
         //  
         // }
-        public static CustomerBase Create(string typeCustomer)
+        public static ICustomer Create(string typeCustomer)
         {
-            var customerBase = customers[typeCustomer];
-            return customerBase;
+            if (_unityContainer == null)
+            {
+                _unityContainer = new UnityContainer();
+                _unityContainer.RegisterType<ICustomer, Customer>("Customer");
+                _unityContainer.RegisterType<ICustomer, Lead>("Lead");
+                // customers.Add("Lead", new Lead());
+                // customers.Add("Customer", new Customer());
+            
+            }
 
+            return _unityContainer.Resolve<ICustomer>(typeCustomer);
         }
     }
 }

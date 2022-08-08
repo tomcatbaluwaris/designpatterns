@@ -1,4 +1,5 @@
 ﻿using System;
+using InterfaceCustomer.Properties;
 
 namespace MiddleLayer
 {
@@ -31,7 +32,7 @@ namespace MiddleLayer
             
         }
     }
-    public class CustomerBase
+    public class CustomerBase :ICustomer
     {
         public string CustomerName { get; set; }
         public decimal BillAmount { get; set; }
@@ -40,6 +41,7 @@ namespace MiddleLayer
         public DateTime BillDate { get; set; }
         public string PhoneNumber { get; set; }
 
+        
         public virtual void Validate()
         {
             throw new Exception("Not implemented");

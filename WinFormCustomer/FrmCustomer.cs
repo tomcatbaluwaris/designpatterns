@@ -1,22 +1,15 @@
-﻿using MiddleLayer;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 using System.Windows.Forms;
 using Factory;
+using InterfaceCustomer.Properties;
 
 namespace WinFormCustomer
 {
     public partial class FrmCustomer : Form
     {
-        private Customer _customer;
-        private Lead _lead;
-        private CustomerBase _customerBase;
+        // private ICustomer _customer;
+        // private ICustomer _lead;
+        private ICustomer _customerBase;
 
         public FrmCustomer()
         {
