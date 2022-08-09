@@ -912,6 +912,7 @@
       "Factory/1.0.0": {
         "type": "project",
         "dependencies": {
+          "InterfaceCustomer": "1.0.0",
           "MiddleLayer": "1.0.0"
         },
         "compile": {
@@ -921,8 +922,20 @@
           "bin/placeholder/Factory.dll": {}
         }
       },
+      "InterfaceCustomer/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/InterfaceCustomer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InterfaceCustomer.dll": {}
+        }
+      },
       "MiddleLayer/1.0.0": {
         "type": "project",
+        "dependencies": {
+          "InterfaceCustomer": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/MiddleLayer.dll": {}
         },
@@ -934,7 +947,7 @@
         "type": "project",
         "dependencies": {
           "Factory": "1.0.0",
-          "MiddleLayer": "1.0.0"
+          "InterfaceCustomer": "1.0.0"
         },
         "compile": {
           "bin/placeholder/WinFormCustomer.dll": {}
@@ -4006,6 +4019,11 @@
       "type": "project",
       "path": "../Factory/Factory.csproj",
       "msbuildProject": "../Factory/Factory.csproj"
+    },
+    "InterfaceCustomer/1.0.0": {
+      "type": "project",
+      "path": "../InterfaceCustomer/InterfaceCustomer.csproj",
+      "msbuildProject": "../InterfaceCustomer/InterfaceCustomer.csproj"
     },
     "MiddleLayer/1.0.0": {
       "type": "project",

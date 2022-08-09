@@ -1,0 +1,6 @@
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\bin\Debug\InterfaceCustomer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\bin\Debug\InterfaceCustomer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\obj\Debug\InterfaceCustomer.csproj.AssemblyReference.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\obj\Debug\InterfaceCustomer.csproj.CoreCompileInputs.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\obj\Debug\InterfaceCustomer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\obj\Debug\InterfaceCustomer.pdb

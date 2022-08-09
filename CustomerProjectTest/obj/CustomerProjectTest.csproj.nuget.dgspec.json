@@ -100,10 +100,28 @@
         "frameworks": {
           "net48": {
             "projectReferences": {
+              "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj": {
+                "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj"
+              },
               "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\MiddleLayer\\MiddleLayer.csproj": {
                 "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\MiddleLayer\\MiddleLayer.csproj"
               }
             }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj",
+        "projectName": "InterfaceCustomer",
+        "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
           }
         }
       },
@@ -118,7 +136,11 @@
         "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\MiddleLayer\\MiddleLayer.csproj",
         "frameworks": {
           "net48": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj": {
+                "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj"
+              }
+            }
           }
         }
       },
@@ -137,8 +159,8 @@
               "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\Factory\\Factory.csproj": {
                 "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\Factory\\Factory.csproj"
               },
-              "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\MiddleLayer\\MiddleLayer.csproj": {
-                "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\MiddleLayer\\MiddleLayer.csproj"
+              "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj": {
+                "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj"
               }
             }
           }
