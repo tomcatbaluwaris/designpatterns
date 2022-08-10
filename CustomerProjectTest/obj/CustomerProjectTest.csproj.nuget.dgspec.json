@@ -105,6 +105,9 @@
               },
               "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\MiddleLayer\\MiddleLayer.csproj": {
                 "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\MiddleLayer\\MiddleLayer.csproj"
+              },
+              "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\ValidationAlgorithms\\ValidationAlgorithms.csproj": {
+                "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\ValidationAlgorithms\\ValidationAlgorithms.csproj"
               }
             }
           }
@@ -134,6 +137,25 @@
         "projectUniqueName": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\MiddleLayer\\MiddleLayer.csproj",
         "projectName": "MiddleLayer",
         "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\MiddleLayer\\MiddleLayer.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {
+              "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj": {
+                "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\ValidationAlgorithms\\ValidationAlgorithms.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\ValidationAlgorithms\\ValidationAlgorithms.csproj",
+        "projectName": "ValidationAlgorithms",
+        "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\ValidationAlgorithms\\ValidationAlgorithms.csproj",
         "frameworks": {
           "net48": {
             "projectReferences": {

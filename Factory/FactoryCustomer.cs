@@ -4,6 +4,7 @@ using System.Dynamic;
 using InterfaceCustomer.Properties;
 using Microsoft.Practices.Unity;
 using MiddleLayer;
+using ValidationAlgorithms;
 
 namespace Factory
 {
@@ -30,8 +31,8 @@ namespace Factory
             if (_unityContainer == null)
             {
                 _unityContainer = new UnityContainer();
-                _unityContainer.RegisterType<ICustomer, Customer>("Customer");
-                _unityContainer.RegisterType<ICustomer, Lead>("Lead");
+                _unityContainer.RegisterType<ICustomer, Customer>("Customer", new InjectionConstructor(new CustomerValidationAll()));
+                _unityContainer.RegisterType<ICustomer, Lead>("Lead", new InjectionConstructor(new LeadValidation()));
                 // customers.Add("Lead", new Lead());
                 // customers.Add("Customer", new Customer());
             

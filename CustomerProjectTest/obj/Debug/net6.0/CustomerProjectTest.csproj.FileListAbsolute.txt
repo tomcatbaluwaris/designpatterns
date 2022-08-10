@@ -113,3 +113,5 @@ C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\InterfaceCustomer.pdb
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\Microsoft.Practices.Unity.xml
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\Microsoft.Practices.ServiceLocation.xml
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\ValidationAlgorithms.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\ValidationAlgorithms.pdb

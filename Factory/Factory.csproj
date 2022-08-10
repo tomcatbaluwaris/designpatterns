@@ -71,6 +71,10 @@
         <Project>{1e9747d9-f880-4bd6-808f-1e5f1adaa96e}</Project>
         <Name>MiddleLayer</Name>
       </ProjectReference>
+      <ProjectReference Include="..\ValidationAlgorithms\ValidationAlgorithms.csproj">
+        <Project>{e9076ddd-0f71-4b6b-a4ce-ae3b105e0b34}</Project>
+        <Name>ValidationAlgorithms</Name>
+      </ProjectReference>
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />

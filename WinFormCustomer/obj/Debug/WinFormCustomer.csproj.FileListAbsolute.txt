@@ -26,3 +26,5 @@ C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Uni
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Unity.Container.pdb
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Microsoft.Practices.Unity.xml
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\ValidationAlgorithms.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\ValidationAlgorithms.pdb

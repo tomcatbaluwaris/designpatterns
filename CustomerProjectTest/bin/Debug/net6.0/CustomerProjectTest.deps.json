@@ -672,32 +672,42 @@
       },
       "Factory/1.0.0": {
         "dependencies": {
-          "MiddleLayer": "1.0.0"
+          "InterfaceCustomer": "1.0.0",
+          "MiddleLayer": "1.0.0",
+          "ValidationAlgorithms": "1.0.0"
         },
         "runtime": {
           "Factory.dll": {}
         }
       },
+      "InterfaceCustomer/1.0.0": {
+        "runtime": {
+          "InterfaceCustomer.dll": {}
+        }
+      },
       "MiddleLayer/1.0.0": {
+        "dependencies": {
+          "InterfaceCustomer": "1.0.0"
+        },
         "runtime": {
           "MiddleLayer.dll": {}
+        }
+      },
+      "ValidationAlgorithms/1.0.0": {
+        "dependencies": {
+          "InterfaceCustomer": "1.0.0"
+        },
+        "runtime": {
+          "ValidationAlgorithms.dll": {}
         }
       },
       "WinFormCustomer/1.0.0": {
         "dependencies": {
           "Factory": "1.0.0",
-          "MiddleLayer": "1.0.0"
+          "InterfaceCustomer": "1.0.0"
         },
         "runtime": {
           "WinFormCustomer.exe": {}
-        }
-      },
-      "InterfaceCustomer/1.0.0.0": {
-        "runtime": {
-          "InterfaceCustomer.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
         }
       },
       "Microsoft.Practices.Unity/4.0.0.0": {
@@ -1072,18 +1082,23 @@
       "serviceable": false,
       "sha512": ""
     },
+    "InterfaceCustomer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "MiddleLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ValidationAlgorithms/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "WinFormCustomer/1.0.0": {
       "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "InterfaceCustomer/1.0.0.0": {
-      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },

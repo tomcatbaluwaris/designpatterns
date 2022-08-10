@@ -1,0 +1,9 @@
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\bin\Debug\ValidationAlgorithms.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\bin\Debug\ValidationAlgorithms.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\bin\Debug\InterfaceCustomer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\bin\Debug\InterfaceCustomer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.csproj.AssemblyReference.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.csproj.CopyComplete
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\obj\Debug\ValidationAlgorithms.pdb

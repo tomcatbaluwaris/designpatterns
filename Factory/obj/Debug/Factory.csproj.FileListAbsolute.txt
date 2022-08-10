@@ -23,3 +23,5 @@ C:\Users\edvve\RiderProjects\CustomerProjectPhase1\Factory\bin\Debug\System.Runt
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\Factory\bin\Debug\Unity.Abstractions.pdb
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\Factory\bin\Debug\Unity.Container.pdb
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\Factory\bin\Debug\InterfaceCustomer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\Factory\bin\Debug\ValidationAlgorithms.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\Factory\bin\Debug\ValidationAlgorithms.pdb

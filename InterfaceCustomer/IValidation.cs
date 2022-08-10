@@ -1,9 +1,9 @@
 ﻿using InterfaceCustomer.Properties;
 
-namespace ValidationAlgorithms
+namespace InterfaceCustomer
 {
-    public interface IValidation
+    public interface IValidation<TAnyType>
     {
-        void Validate(ICustomer obj);
+        void Validate(TAnyType obj);
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using Factory;
+using InterfaceCustomer;
 using InterfaceCustomer.Properties;
 
 namespace WinFormCustomer
@@ -10,6 +11,7 @@ namespace WinFormCustomer
         // private ICustomer _customer;
         // private ICustomer _lead;
         private ICustomer _customerBase;
+        // private IValidation<ICustomer> _validation;
 
         public FrmCustomer()
         {
@@ -29,6 +31,7 @@ namespace WinFormCustomer
         {
             SetCustomer();
             _customerBase.Validate();
+            // _validation.Validate(_customerBase);
         }
 
         private void FrmCustomer_Load(object sender, EventArgs e)
@@ -42,10 +45,12 @@ namespace WinFormCustomer
             _customerBase.CustomerName = customerName.Text;
             _customerBase.PhoneNumber = phoneNumber.Text;
             _customerBase.BillAmount = Convert.ToDecimal(billAmount.Text);
-            _customerBase.BillDate = Convert.ToDateTime(billDate.Text);
+            // _customerBase.BillDate = Convert.ToDateTime(billDate.Text);
+            _customerBase.BillDate = DateTime.Now;
             _customerBase.Address = address.Text;
 
         }
+
 
 
         private void customerType_SelectedIndexChanged(object sender, EventArgs e)

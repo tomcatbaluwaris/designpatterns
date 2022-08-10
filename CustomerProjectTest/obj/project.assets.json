@@ -913,7 +913,8 @@
         "type": "project",
         "dependencies": {
           "InterfaceCustomer": "1.0.0",
-          "MiddleLayer": "1.0.0"
+          "MiddleLayer": "1.0.0",
+          "ValidationAlgorithms": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Factory.dll": {}
@@ -941,6 +942,18 @@
         },
         "runtime": {
           "bin/placeholder/MiddleLayer.dll": {}
+        }
+      },
+      "ValidationAlgorithms/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "InterfaceCustomer": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ValidationAlgorithms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ValidationAlgorithms.dll": {}
         }
       },
       "WinFormCustomer/1.0.0": {
@@ -4029,6 +4042,11 @@
       "type": "project",
       "path": "../MiddleLayer/MiddleLayer.csproj",
       "msbuildProject": "../MiddleLayer/MiddleLayer.csproj"
+    },
+    "ValidationAlgorithms/1.0.0": {
+      "type": "project",
+      "path": "../ValidationAlgorithms/ValidationAlgorithms.csproj",
+      "msbuildProject": "../ValidationAlgorithms/ValidationAlgorithms.csproj"
     },
     "WinFormCustomer/1.0.0": {
       "type": "project",
