@@ -1,5 +1,6 @@
 ﻿using CommonDal;
 using System.Data.SqlClient;
+using InterfaceCustomer.Properties;
 
 namespace AdoDotDataLayer
 {
@@ -7,7 +8,7 @@ namespace AdoDotDataLayer
     {
         private readonly string _connectionString;
         private SqlConnection _objConn = null;
-        private SqlCommand _objCommand;
+        protected SqlCommand _objCommand;
 
         public TemplateAdo(string connectionString) : base(connectionString)
         {
@@ -46,5 +47,25 @@ namespace AdoDotDataLayer
 
 
 
+    }
+
+    // I'm adding the ICostumer Interface and not the MiddleLayer
+    public class CustomerDAL : TemplateAdo<ICustomer>
+    {
+        public CustomerDAL(string connectionString) : base(connectionString)
+        {
+            
+        }
+
+        public override void ExecuteCommand(ICustomer anyType)
+        {
+            _objCommand.CommandText = "insert into tblCustomer("+
+            "CustomerName,"+
+            "BillAmount, BillDate, PhoneNumber, Address,"+
+            ")"+
+            "values('"+anyType.CustomerName+""+anyType.BillAmount+""+anyType.BillDate+""+
+            anyType.PhoneNumber+""+anyType.Address+""+
+            ".)";
+        }
     }
 }
