@@ -1,0 +1,12 @@
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceDal\bin\Debug\net6.0\InterfaceDal.deps.json
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceDal\bin\Debug\net6.0\InterfaceDal.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceDal\bin\Debug\net6.0\InterfaceDal.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceDal\obj\Debug\net6.0\InterfaceDal.csproj.AssemblyReference.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceDal\obj\Debug\net6.0\InterfaceDal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceDal\obj\Debug\net6.0\InterfaceDal.AssemblyInfoInputs.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceDal\obj\Debug\net6.0\InterfaceDal.AssemblyInfo.cs
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceDal\obj\Debug\net6.0\InterfaceDal.csproj.CoreCompileInputs.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceDal\obj\Debug\net6.0\InterfaceDal.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceDal\obj\Debug\net6.0\refint\InterfaceDal.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceDal\obj\Debug\net6.0\InterfaceDal.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceDal\obj\Debug\net6.0\ref\InterfaceDal.dll

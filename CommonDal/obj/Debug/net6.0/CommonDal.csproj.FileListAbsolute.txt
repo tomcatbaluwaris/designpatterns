@@ -1,0 +1,15 @@
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CommonDal\bin\Debug\net6.0\CommonDal.deps.json
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CommonDal\bin\Debug\net6.0\CommonDal.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CommonDal\bin\Debug\net6.0\CommonDal.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CommonDal\bin\Debug\net6.0\InterfaceDal.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CommonDal\bin\Debug\net6.0\InterfaceDal.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CommonDal\obj\Debug\net6.0\CommonDal.csproj.AssemblyReference.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CommonDal\obj\Debug\net6.0\CommonDal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CommonDal\obj\Debug\net6.0\CommonDal.AssemblyInfoInputs.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CommonDal\obj\Debug\net6.0\CommonDal.AssemblyInfo.cs
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CommonDal\obj\Debug\net6.0\CommonDal.csproj.CoreCompileInputs.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CommonDal\obj\Debug\net6.0\CommonDal.csproj.CopyComplete
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CommonDal\obj\Debug\net6.0\CommonDal.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CommonDal\obj\Debug\net6.0\refint\CommonDal.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CommonDal\obj\Debug\net6.0\CommonDal.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CommonDal\obj\Debug\net6.0\ref\CommonDal.dll

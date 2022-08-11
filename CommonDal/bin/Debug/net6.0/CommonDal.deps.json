@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CommonDal/1.0.0": {
+        "dependencies": {
+          "InterfaceDal": "1.0.0"
+        },
+        "runtime": {
+          "CommonDal.dll": {}
+        }
+      },
+      "InterfaceDal/1.0.0": {
+        "runtime": {
+          "InterfaceDal.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommonDal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InterfaceDal/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
