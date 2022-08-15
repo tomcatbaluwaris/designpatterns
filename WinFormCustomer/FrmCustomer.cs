@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using Factory;
 using InterfaceCustomer;
-using InterfaceCustomer.Properties;
+using InterfaceDal;
 
 namespace WinFormCustomer
 {
@@ -55,7 +55,15 @@ namespace WinFormCustomer
 
         private void customerType_SelectedIndexChanged(object sender, EventArgs e)
         {
-            _customerBase = FactoryCustomer.Create(customerType.Text);
+            _customerBase = FactoryCustomer<ICustomer>.Create(customerType.Text);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            SetCustomer();
+            var dal = FactoryCustomer<IDal<ICustomer>>.Create("ADODal");
+            dal.Add(_customerBase);
+            dal.Save();
         }
     }
 }

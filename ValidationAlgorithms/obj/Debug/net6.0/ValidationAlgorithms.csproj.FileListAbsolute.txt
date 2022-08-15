@@ -1,0 +1,15 @@
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\obj\Debug\net6.0\ValidationAlgorithms.csproj.AssemblyReference.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\obj\Debug\net6.0\ValidationAlgorithms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\obj\Debug\net6.0\ValidationAlgorithms.AssemblyInfoInputs.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\obj\Debug\net6.0\ValidationAlgorithms.AssemblyInfo.cs
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\obj\Debug\net6.0\ValidationAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\bin\Debug\net6.0\ValidationAlgorithms.deps.json
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\bin\Debug\net6.0\ValidationAlgorithms.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\bin\Debug\net6.0\ValidationAlgorithms.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\bin\Debug\net6.0\InterfaceCustomer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\bin\Debug\net6.0\InterfaceCustomer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\obj\Debug\net6.0\ValidationAlgorithms.csproj.CopyComplete
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\obj\Debug\net6.0\ValidationAlgorithms.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\obj\Debug\net6.0\refint\ValidationAlgorithms.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\obj\Debug\net6.0\ValidationAlgorithms.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\ValidationAlgorithms\obj\Debug\net6.0\ref\ValidationAlgorithms.dll

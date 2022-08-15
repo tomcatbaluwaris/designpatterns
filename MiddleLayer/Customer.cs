@@ -1,6 +1,5 @@
 ﻿using System;
 using InterfaceCustomer;
-using InterfaceCustomer.Properties;
 
 namespace MiddleLayer
 {
@@ -37,57 +36,57 @@ namespace MiddleLayer
         //     }
         //     
         //     
-            
-        }
+
     }
-    public class CustomerBase :ICustomer
+}
+public class CustomerBase : ICustomer
+{
+    public IValidation<ICustomer> _validation = null;
+    public CustomerBase(IValidation<ICustomer> validation)
     {
-        public IValidation<ICustomer> _validation = null;
-        public CustomerBase(IValidation<ICustomer> validation)
-        {
-            _validation = validation;
-        }
-
-      
-
-        public string CustomerName { get; set; }
-        public decimal BillAmount { get; set; }
-        public string Address { get; set; }
-        
-        public DateTime BillDate { get; set; }
-        public string PhoneNumber { get; set; }
-
-        
-        public virtual void Validate()
-        {
-            _validation.Validate(this);
-        }
+        _validation = validation;
     }
-    public class Lead : CustomerBase
+
+
+
+    public string CustomerName { get; set; }
+    public decimal BillAmount { get; set; }
+    public string Address { get; set; }
+
+    public DateTime BillDate { get; set; }
+    public string PhoneNumber { get; set; }
+
+
+    public virtual void Validate()
     {
-        public IValidation<ICustomer> _validation = null;
-        // public Lead(IValidation<ICustomer> validation)
-        // {
-        //  _validation  = validation;
-        // }
-        // public override void Validate()
-        // {
-        //     _validation.Validate(this);
-        //     // if (CustomerName.Length == 0)
-        //     // {
-        //     //     throw new Exception("CustomerName must be required");
-        //     // }
-        //     // if (PhoneNumber.Length == 0)
-        //     // {
-        //     //     throw new Exception("PhoneNumber must be required");
-        //     // }
-        // }
-
-
-        public Lead(IValidation<ICustomer> validation) : base(validation)
-        {
-            _validation = validation;
-        }
+        _validation.Validate(this);
     }
-    
+}
+public class Lead : CustomerBase
+{
+    public IValidation<ICustomer> _validation = null;
+    // public Lead(IValidation<ICustomer> validation)
+    // {
+    //  _validation  = validation;
+    // }
+    // public override void Validate()
+    // {
+    //     _validation.Validate(this);
+    //     // if (CustomerName.Length == 0)
+    //     // {
+    //     //     throw new Exception("CustomerName must be required");
+    //     // }
+    //     // if (PhoneNumber.Length == 0)
+    //     // {
+    //     //     throw new Exception("PhoneNumber must be required");
+    //     // }
+    // }
+
+
+    public Lead(IValidation<ICustomer> validation) : base(validation)
+    {
+        _validation = validation;
+    }
+}
+
 // }

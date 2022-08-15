@@ -1,6 +1,6 @@
 ﻿using System;
 using InterfaceCustomer;
-using InterfaceCustomer.Properties;
+
 
 namespace ValidationAlgorithms
 {
@@ -22,6 +22,7 @@ namespace ValidationAlgorithms
                 throw new Exception("BillAmount must be required");
             }
             if (obj.Address.Length == 0)
+
             {
                 throw new Exception("Address must be required");
             }

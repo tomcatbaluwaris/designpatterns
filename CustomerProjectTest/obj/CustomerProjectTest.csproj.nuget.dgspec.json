@@ -31,11 +31,7 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\WinFormCustomer\\WinFormCustomer.csproj": {
-                "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\WinFormCustomer\\WinFormCustomer.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -90,106 +86,6 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
-      }
-    },
-    "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\Factory\\Factory.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\Factory\\Factory.csproj",
-        "projectName": "Factory",
-        "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\Factory\\Factory.csproj",
-        "frameworks": {
-          "net48": {
-            "projectReferences": {
-              "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj": {
-                "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj"
-              },
-              "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\MiddleLayer\\MiddleLayer.csproj": {
-                "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\MiddleLayer\\MiddleLayer.csproj"
-              },
-              "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\ValidationAlgorithms\\ValidationAlgorithms.csproj": {
-                "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\ValidationAlgorithms\\ValidationAlgorithms.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
-      }
-    },
-    "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj",
-        "projectName": "InterfaceCustomer",
-        "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj",
-        "frameworks": {
-          "net48": {
-            "projectReferences": {}
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
-      }
-    },
-    "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\MiddleLayer\\MiddleLayer.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\MiddleLayer\\MiddleLayer.csproj",
-        "projectName": "MiddleLayer",
-        "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\MiddleLayer\\MiddleLayer.csproj",
-        "frameworks": {
-          "net48": {
-            "projectReferences": {
-              "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj": {
-                "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
-      }
-    },
-    "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\ValidationAlgorithms\\ValidationAlgorithms.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\ValidationAlgorithms\\ValidationAlgorithms.csproj",
-        "projectName": "ValidationAlgorithms",
-        "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\ValidationAlgorithms\\ValidationAlgorithms.csproj",
-        "frameworks": {
-          "net48": {
-            "projectReferences": {
-              "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj": {
-                "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
-      }
-    },
-    "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\WinFormCustomer\\WinFormCustomer.csproj": {
-      "restore": {
-        "projectUniqueName": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\WinFormCustomer\\WinFormCustomer.csproj",
-        "projectName": "WinFormCustomer",
-        "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\WinFormCustomer\\WinFormCustomer.csproj",
-        "frameworks": {
-          "net48": {
-            "projectReferences": {
-              "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\Factory\\Factory.csproj": {
-                "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\Factory\\Factory.csproj"
-              },
-              "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj": {
-                "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\InterfaceCustomer\\InterfaceCustomer.csproj"
-              }
-            }
-          }
-        }
-      },
-      "frameworks": {
-        "net48": {}
       }
     }
   }

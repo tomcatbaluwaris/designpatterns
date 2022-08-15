@@ -1,6 +1,6 @@
 ﻿using CommonDal;
 using System.Data.SqlClient;
-using InterfaceCustomer.Properties;
+
 
 namespace AdoDotDataLayer
 {
@@ -15,7 +15,7 @@ namespace AdoDotDataLayer
             _connectionString = connectionString;
         }
         
-        //Design Pattern :- Template Pattern
+        //Design Pattern :- Template Pattern => Fixed Sequence, but the child classes do have the liberty to override the methods if needed
         public void Execute(TAnyType obj)// Fixed Sequence
         {
             Open();
@@ -31,6 +31,7 @@ namespace AdoDotDataLayer
             }
         }
         
+        //Design Pattern :- Template Pattern
         public void Open()
         {
             _objConn = new SqlConnection(ConnectionString);
@@ -40,7 +41,7 @@ namespace AdoDotDataLayer
         }
         public void Close()
         {
-            
+            _objConn.Close();
         }
 
         public abstract void ExecuteCommand(TAnyType anyType);// Child classes override this method they needed
@@ -50,22 +51,4 @@ namespace AdoDotDataLayer
     }
 
     // I'm adding the ICostumer Interface and not the MiddleLayer
-    public class CustomerDAL : TemplateAdo<ICustomer>
-    {
-        public CustomerDAL(string connectionString) : base(connectionString)
-        {
-            
-        }
-
-        public override void ExecuteCommand(ICustomer anyType)
-        {
-            _objCommand.CommandText = "insert into tblCustomer("+
-            "CustomerName,"+
-            "BillAmount, BillDate, PhoneNumber, Address,"+
-            ")"+
-            "values('"+anyType.CustomerName+""+anyType.BillAmount+""+anyType.BillDate+""+
-            anyType.PhoneNumber+""+anyType.Address+""+
-            ".)";
-        }
-    }
 }

@@ -1,0 +1,12 @@
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\bin\Debug\net6.0\InterfaceCustomer.deps.json
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\bin\Debug\net6.0\InterfaceCustomer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\bin\Debug\net6.0\InterfaceCustomer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\obj\Debug\net6.0\InterfaceCustomer.csproj.AssemblyReference.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\obj\Debug\net6.0\InterfaceCustomer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\obj\Debug\net6.0\InterfaceCustomer.AssemblyInfoInputs.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\obj\Debug\net6.0\InterfaceCustomer.AssemblyInfo.cs
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\obj\Debug\net6.0\InterfaceCustomer.csproj.CoreCompileInputs.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\obj\Debug\net6.0\InterfaceCustomer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\obj\Debug\net6.0\refint\InterfaceCustomer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\obj\Debug\net6.0\InterfaceCustomer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\InterfaceCustomer\obj\Debug\net6.0\ref\InterfaceCustomer.dll
