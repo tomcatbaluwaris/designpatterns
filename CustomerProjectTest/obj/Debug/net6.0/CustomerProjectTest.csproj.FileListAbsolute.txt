@@ -21,6 +21,8 @@ C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\NuGet.Frameworks.dll
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\Unity.Abstractions.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\Unity.Container.dll
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -86,13 +88,6 @@ C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\Factory.dll
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\MiddleLayer.dll
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\WinFormCustomer.exe
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\WinFormCustomer.pdb
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\WinFormCustomer.exe.config
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\Factory.pdb
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\MiddleLayer.pdb
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\obj\Debug\net6.0\CustomerProjectTest.csproj.AssemblyReference.cache
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\obj\Debug\net6.0\CustomerProjectTest.csproj.ResolveComReference.cache
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\obj\Debug\net6.0\CustomerProjectTest.GeneratedMSBuildEditorConfig.editorconfig
@@ -105,13 +100,3 @@ C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\obj\Debug
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\obj\Debug\net6.0\CustomerProjectTest.pdb
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\obj\Debug\net6.0\CustomerProjectTest.genruntimeconfig.cache
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\obj\Debug\net6.0\ref\CustomerProjectTest.dll
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\Unity.Abstractions.dll
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\Unity.Container.dll
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\InterfaceCustomer.dll
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\Microsoft.Practices.Unity.dll
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\Microsoft.Practices.ServiceLocation.dll
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\InterfaceCustomer.pdb
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\Microsoft.Practices.Unity.xml
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\Microsoft.Practices.ServiceLocation.xml
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\ValidationAlgorithms.dll
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\CustomerProjectTest\bin\Debug\net6.0\ValidationAlgorithms.pdb

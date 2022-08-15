@@ -1,4 +1,3 @@
-using WinFormCustomer;
 
 namespace CustomerProjectTest
 {
@@ -18,6 +17,15 @@ namespace CustomerProjectTest
             DateTime actual = dateValidator.ConvertCostumerString(date,"12/02/2019");
             
             Assert.That(actual,Is.TypeOf<DateTime>());
+        }
+    }
+
+    public class DateValidator
+    {
+        public DateTime ConvertCostumerString(DateTime date, string itemToConvert)
+        {
+          
+                return date = Convert.ToDateTime(itemToConvert);
         }
     }
 }

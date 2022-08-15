@@ -908,66 +908,6 @@
           "lib/netcoreapp3.0/Unity.Abstractions.dll": {},
           "lib/netcoreapp3.0/Unity.Container.dll": {}
         }
-      },
-      "Factory/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "InterfaceCustomer": "1.0.0",
-          "MiddleLayer": "1.0.0",
-          "ValidationAlgorithms": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Factory.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Factory.dll": {}
-        }
-      },
-      "InterfaceCustomer/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/InterfaceCustomer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/InterfaceCustomer.dll": {}
-        }
-      },
-      "MiddleLayer/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "InterfaceCustomer": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/MiddleLayer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MiddleLayer.dll": {}
-        }
-      },
-      "ValidationAlgorithms/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "InterfaceCustomer": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ValidationAlgorithms.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ValidationAlgorithms.dll": {}
-        }
-      },
-      "WinFormCustomer/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "Factory": "1.0.0",
-          "InterfaceCustomer": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/WinFormCustomer.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/WinFormCustomer.dll": {}
-        }
       }
     }
   },
@@ -4027,31 +3967,6 @@
         "unity.5.11.10.nupkg.sha512",
         "unity.nuspec"
       ]
-    },
-    "Factory/1.0.0": {
-      "type": "project",
-      "path": "../Factory/Factory.csproj",
-      "msbuildProject": "../Factory/Factory.csproj"
-    },
-    "InterfaceCustomer/1.0.0": {
-      "type": "project",
-      "path": "../InterfaceCustomer/InterfaceCustomer.csproj",
-      "msbuildProject": "../InterfaceCustomer/InterfaceCustomer.csproj"
-    },
-    "MiddleLayer/1.0.0": {
-      "type": "project",
-      "path": "../MiddleLayer/MiddleLayer.csproj",
-      "msbuildProject": "../MiddleLayer/MiddleLayer.csproj"
-    },
-    "ValidationAlgorithms/1.0.0": {
-      "type": "project",
-      "path": "../ValidationAlgorithms/ValidationAlgorithms.csproj",
-      "msbuildProject": "../ValidationAlgorithms/ValidationAlgorithms.csproj"
-    },
-    "WinFormCustomer/1.0.0": {
-      "type": "project",
-      "path": "../WinFormCustomer/WinFormCustomer.csproj",
-      "msbuildProject": "../WinFormCustomer/WinFormCustomer.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4061,7 +3976,6 @@
       "NUnit.Analyzers >= 3.3.0",
       "NUnit3TestAdapter >= 4.2.1",
       "Unity >= 5.11.10",
-      "WinFormCustomer >= 1.0.0",
       "coverlet.collector >= 3.1.2"
     ]
   },
@@ -4096,11 +4010,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\WinFormCustomer\\WinFormCustomer.csproj": {
-              "projectPath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\WinFormCustomer\\WinFormCustomer.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

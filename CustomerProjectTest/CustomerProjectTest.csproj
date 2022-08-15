@@ -26,8 +26,4 @@
     <PackageReference Include="Unity" Version="5.11.10" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\WinFormCustomer\WinFormCustomer.csproj" />
-  </ItemGroup>
-
 </Project>

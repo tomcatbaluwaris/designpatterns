@@ -1,0 +1,15 @@
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\obj\Debug\net6.0\MiddleLayer.csproj.AssemblyReference.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\obj\Debug\net6.0\MiddleLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\obj\Debug\net6.0\MiddleLayer.AssemblyInfoInputs.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\obj\Debug\net6.0\MiddleLayer.AssemblyInfo.cs
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\obj\Debug\net6.0\MiddleLayer.csproj.CoreCompileInputs.cache
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\bin\Debug\net6.0\MiddleLayer.deps.json
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\bin\Debug\net6.0\MiddleLayer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\bin\Debug\net6.0\MiddleLayer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\bin\Debug\net6.0\InterfaceCustomer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\bin\Debug\net6.0\InterfaceCustomer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\obj\Debug\net6.0\MiddleLayer.csproj.CopyComplete
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\obj\Debug\net6.0\MiddleLayer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\obj\Debug\net6.0\refint\MiddleLayer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\obj\Debug\net6.0\MiddleLayer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\MiddleLayer\obj\Debug\net6.0\ref\MiddleLayer.dll

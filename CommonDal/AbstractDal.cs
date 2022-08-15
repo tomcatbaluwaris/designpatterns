@@ -2,7 +2,7 @@
 {
     public class AbstractDal<TAnyType> : InterfaceDal.IDal<TAnyType>
     {
-        protected string ConnectionString = "";
+        protected string ConnectionString = $"Server=DESKTOP-TJ8J7V7;Database=CustomerDB;Trusted_Connection=True;MultipleActiveResultSets=True";
 
         public AbstractDal(string connectionString)
         {
@@ -12,7 +12,7 @@
         protected List<TAnyType> AnyTypes = new List<TAnyType>();
         public void Add(TAnyType obj)
         {
-            throw new NotImplementedException();
+            AnyTypes.Add(obj);
         }
 
         public virtual void Save()
