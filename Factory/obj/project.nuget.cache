@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ji/KOGrU1fxbiN6vaogMYfaOoF78mbi3PXros66cqbqXLPO2E2p4qIagD4VmCXlDcpYeL/kfsGlUulg4eXTZhw==",
+  "dgSpecHash": "0qgztofy6L7exM3dQ9FgNHyeg06eBQV9HjBpjbNLv+oPC5+/0NXQxT7NPmJqQ115jqkFtswyYYd44/rWOCtQJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\Factory\\Factory.csproj",
+  "projectFilePath": "C:\\Users\\edvve\\RiderProjects\\CustomerProjectPhase1\\Factory\\FactoryCustomer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edvve\\.nuget\\packages\\commonservicelocator.netcore\\1.3.1\\commonservicelocator.netcore.1.3.1.nupkg.sha512",
     "C:\\Users\\edvve\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

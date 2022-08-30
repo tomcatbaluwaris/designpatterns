@@ -22,6 +22,16 @@ namespace AdoDotDataLayer
             ExecuteCommand(obj);
             Close();
         }
+        
+        //Design Pattern :- Template Pattern => Fixed Sequence, but the child classes do have the liberty to override the methods if needed
+        public List<TAnyType> Execute()// Fixed Sequence
+        {
+            List<TAnyType> objTypes = null;
+            Open();
+            objTypes = ExecuteCommand();
+            Close();
+            return objTypes;
+        }
 
         public override void Save()
         {
@@ -45,6 +55,8 @@ namespace AdoDotDataLayer
         }
 
         public abstract void ExecuteCommand(TAnyType anyType);// Child classes override this method they needed
+        public abstract List<TAnyType> ExecuteCommand(
+            );// Child classes override this method they needed
 
 
 

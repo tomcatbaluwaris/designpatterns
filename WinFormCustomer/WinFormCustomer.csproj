@@ -9,7 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Factory\Factory.csproj" />
+    <ProjectReference Include="..\FactoryDal\FactoryDal.csproj" />
+    <ProjectReference Include="..\Factory\FactoryCustomer.csproj" />
   </ItemGroup>
 
 </Project>

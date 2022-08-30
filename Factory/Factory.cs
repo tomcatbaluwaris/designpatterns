@@ -21,9 +21,9 @@ using Microsoft.Practices.Unity;
 using MiddleLayer;
 using ValidationAlgorithms;
 
-namespace Factory
+namespace FactoryCustomer
 {
-    public static class FactoryCustomer<TAnyType> // Simple Factory Pattern
+    public static class Factory<TAnyType> // Simple Factory Pattern
     {
         private static IUnityContainer _unityContainerObjects;
         private static Dictionary<string, ICustomer> customers = new Dictionary<string, ICustomer>();
@@ -31,7 +31,7 @@ namespace Factory
         // private static Lazy<Dictionary<string, CustomerBase>> customers = new Lazy<Dictionary<string, CustomerBase>>();
 
         //Design Pattern RIP Pattern => Replace if with polymorphismn
-        static FactoryCustomer()
+        static Factory()
         {
         }
 
@@ -48,9 +48,9 @@ namespace Factory
             if (_unityContainerObjects == null)
             {
                 _unityContainerObjects = new UnityContainer();
-                _unityContainerObjects.RegisterType<ICustomer, Customer>("Customer", new InjectionConstructor(new CustomerValidationAll()));
-                _unityContainerObjects.RegisterType<ICustomer, Lead>("Lead", new InjectionConstructor(new LeadValidation()));
-                _unityContainerObjects.RegisterType<IDal<ICustomer>, CustomerDAL>("ADODal");
+                _unityContainerObjects.RegisterType<CustomerBase, Customer>("Customer", new InjectionConstructor(new CustomerValidationAll()));
+                _unityContainerObjects.RegisterType<CustomerBase, Lead>("Lead", new InjectionConstructor(new LeadValidation()));
+                //_unityContainerObjects.RegisterType<IDal<ICustomer>, CustomerDAL>("ADODal");
                 // _unityContainerObjects.RegisterType<IDal<ICustomer>, >("Lead", new InjectionConstructor(new LeadValidation()));
                 // customers.Add("Lead", new Lead());
                 // customers.Add("Customer", new Customer());
@@ -59,7 +59,7 @@ namespace Factory
 
             return _unityContainerObjects.Resolve<TAnyType>(typeCustomer,overrides: new ResolverOverride[]
             {
-                new ParameterOverride("connectionString",$"Server=DESKTOP-TJ8J7V7;Database=CustomerDB;Trusted_Connection=True;MultipleActiveResultSets=True")
+                new ParameterOverride("ConnectionString",$"Server=DESKTOP-TJ8J7V7;Database=CustomerDB;Trusted_Connection=True;MultipleActiveResultSets=True")
             });
             
             

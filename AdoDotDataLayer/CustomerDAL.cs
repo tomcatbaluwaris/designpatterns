@@ -1,4 +1,5 @@
-﻿using InterfaceCustomer;
+﻿using System.Data.SqlClient;
+using InterfaceCustomer;
 
 namespace AdoDotDataLayer;
 
@@ -8,6 +9,11 @@ public class CustomerDAL : TemplateAdo<ICustomer>
     {
             
     }
+
+    // public CustomerDAL() : base()
+    // {
+    //     throw new NotImplementedException();
+    // }
 
     public override void ExecuteCommand(ICustomer anyType)
     {
@@ -20,5 +26,19 @@ public class CustomerDAL : TemplateAdo<ICustomer>
                                   anyType.PhoneNumber+"', '"+anyType.Address+"'"+
                                   ")";
         _objCommand.ExecuteNonQuery();
+    }
+
+    public override List<ICustomer> ExecuteCommand()
+    {
+        _objCommand.CommandText = $"select * from tblCustomer";
+        SqlDataReader dr = null;
+        dr = _objCommand.ExecuteReader();
+        List<ICustomer> customers = new List<ICustomer>();
+        while (dr.Read())
+        {
+            // Factory
+        }
+
+        return null;
     }
 }

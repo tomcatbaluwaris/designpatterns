@@ -50,6 +50,7 @@ namespace WinFormCustomer
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.dalLayers = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerBindingSource)).BeginInit();
             this.SuspendLayout();
@@ -183,6 +184,7 @@ namespace WinFormCustomer
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(642, 112);
             this.dataGridView1.TabIndex = 14;
+            
             // 
             // customerBindingSource
             // 
@@ -218,11 +220,21 @@ namespace WinFormCustomer
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // dalLayers
+            // 
+            this.dalLayers.FormattingEnabled = true;
+            this.dalLayers.Location = new System.Drawing.Point(593, 112);
+            this.dalLayers.Name = "dalLayers";
+            this.dalLayers.Size = new System.Drawing.Size(121, 23);
+            this.dalLayers.TabIndex = 20;
+            this.dalLayers.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
             // FrmCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 519);
+            this.Controls.Add(this.dalLayers);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -273,5 +285,6 @@ namespace WinFormCustomer
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private Button button2;
+        private ComboBox dalLayers;
     }
 }

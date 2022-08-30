@@ -19,11 +19,9 @@ C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\Microsoft.Practices.Unity.Configuration.dll
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\Microsoft.Practices.Unity.RegistrationByConvention.dll
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\Microsoft.Practices.Unity.dll
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\Factory.dll
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\InterfaceCustomer.dll
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\MiddleLayer.dll
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\ValidationAlgorithms.dll
-C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\Factory.pdb
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\InterfaceCustomer.pdb
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\MiddleLayer.pdb
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\ValidationAlgorithms.pdb
@@ -40,3 +38,11 @@ C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\AdoDotDataLayer.pdb
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\CommonDal.pdb
 C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\InterfaceDal.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\FactoryCustomer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\FactoryCustomer.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\EntityFramework.SqlServer.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\EntityFramework.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\EfDal.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\FactoryDal.dll
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\FactoryDal.pdb
+C:\Users\edvve\RiderProjects\CustomerProjectPhase1\WinFormCustomer\bin\Debug\net6.0-windows\EfDal.pdb

@@ -11,15 +11,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonDal", "CommonDal\Comm
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdoDotDataLayer", "AdoDotDataLayer\AdoDotDataLayer.csproj", "{13586FBB-8DD6-4E6D-B888-9D4EE6E8501C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{69658EAD-17B1-4FC1-8B3F-B83E30A34B7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryCustomer", "Factory\FactoryCustomer.csproj", "{69658EAD-17B1-4FC1-8B3F-B83E30A34B7A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormCustomer", "WinFormCustomer\WinFormCustomer.csproj", "{8E75E399-B08D-4580-875E-CAD0564F9BD6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceCustomer", "InterfaceCustomer\InterfaceCustomer.csproj", "{83C1C115-9AE4-46B9-AA5F-008507E3D294}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiddleLayer", "MiddleLayer\MiddleLayer.csproj", "{6B726718-D105-45A2-895D-8B72E1EA1908}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiddleLayer", "MiddleLayer\MiddleLayer.csproj", "{6B726718-D105-45A2-895D-8B72E1EA1908}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationAlgorithms", "ValidationAlgorithms\ValidationAlgorithms.csproj", "{A81C0E87-7033-40E7-AA2A-3AE033BEA34C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidationAlgorithms", "ValidationAlgorithms\ValidationAlgorithms.csproj", "{A81C0E87-7033-40E7-AA2A-3AE033BEA34C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryDal", "FactoryDal\FactoryDal.csproj", "{AE76AAEC-8DFB-44FE-A21E-CF95333E20C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryLayer", "FactoryLayer\FactoryLayer.csproj", "{B30E2317-7BEF-4DDD-9660-3CF9D60EE5D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfDal", "EfDal\EfDal.csproj", "{6A52574F-1C84-4A8A-B494-C7D9F35C680C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{A81C0E87-7033-40E7-AA2A-3AE033BEA34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A81C0E87-7033-40E7-AA2A-3AE033BEA34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A81C0E87-7033-40E7-AA2A-3AE033BEA34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE76AAEC-8DFB-44FE-A21E-CF95333E20C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE76AAEC-8DFB-44FE-A21E-CF95333E20C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE76AAEC-8DFB-44FE-A21E-CF95333E20C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE76AAEC-8DFB-44FE-A21E-CF95333E20C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30E2317-7BEF-4DDD-9660-3CF9D60EE5D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30E2317-7BEF-4DDD-9660-3CF9D60EE5D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30E2317-7BEF-4DDD-9660-3CF9D60EE5D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30E2317-7BEF-4DDD-9660-3CF9D60EE5D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A52574F-1C84-4A8A-B494-C7D9F35C680C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A52574F-1C84-4A8A-B494-C7D9F35C680C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A52574F-1C84-4A8A-B494-C7D9F35C680C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A52574F-1C84-4A8A-B494-C7D9F35C680C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

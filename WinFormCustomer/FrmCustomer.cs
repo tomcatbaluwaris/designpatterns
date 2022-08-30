@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using Factory;
+using FactoryCustomer;
+using FactoryDal;
 using InterfaceCustomer;
 using InterfaceDal;
 
@@ -10,21 +11,30 @@ namespace WinFormCustomer
     {
         // private ICustomer _customer;
         // private ICustomer _lead;
-        private ICustomer _customerBase;
+        private CustomerBase _customerBase;
         // private IValidation<ICustomer> _validation;
 
         public FrmCustomer()
         {
             InitializeComponent();
             InitializeCustomerComboBox();
+            LoadGrid();
         }
-
+        public void LoadGrid()
+        {
+            List<CustomerBase> list = new List<CustomerBase>();
+            //list.Add(new Cust { Address = "test" });
+            dataGridView1.DataSource = list;
+        }
         private void InitializeCustomerComboBox()
         {
             //customerBindingSource = new BindingSource();
             //comboBox1.DataSource = new List<object>() { new  { CustomerType = "test1" }, new { CustomerType = "test2" } };
             //comboBox1.DataSource = customerBindingSource;
             //comboBox1.DisplayMember = "CustomerType";            
+            dalLayers.Items.Add("ADODal");
+            dalLayers.Items.Add("EfDal");
+
         }
 
         private void Validate_Click(object sender, EventArgs e)
@@ -55,15 +65,32 @@ namespace WinFormCustomer
 
         private void customerType_SelectedIndexChanged(object sender, EventArgs e)
         {
-            _customerBase = FactoryCustomer<ICustomer>.Create(customerType.Text);
+            _customerBase = FactoryCustomer.Factory<CustomerBase>.Create(customerType.Text);
         }
 
+        // private void button2_Click(object sender, EventArgs e)
+        // {
+        //     SetCustomer();
+        //     var dal = Factory<IDal<ICustomer>>.Create("");
+        //     dal.Add(_customerBase);
+        //     dal.Save();
+        // }
+        
         private void button2_Click(object sender, EventArgs e)
         {
             SetCustomer();
-            var dal = FactoryCustomer<IDal<ICustomer>>.Create("ADODal");
+            
+            // var dal = Factory<IDal<ICustomer>>.Create("");
+            IDal<CustomerBase> dal = FactoryDalLayer<IDal<CustomerBase>>.Create("EfDal");
             dal.Add(_customerBase);
             dal.Save();
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+     
     }
 }
