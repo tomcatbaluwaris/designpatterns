@@ -1,10 +1,8 @@
-﻿using AdoDotDataLayer;
-using EfDal;
+﻿using EfDal;
 using InterfaceCustomer;
 using InterfaceDal;
 using Microsoft.Practices.Unity;
 using MiddleLayer;
-using ValidationAlgorithms;
 
 namespace FactoryDal;
 
@@ -24,8 +22,8 @@ public class FactoryDalLayer<TAnyType>
     // {
     //     customers.Value.Add("Lead", new Lead());
     //     customers.Value.Add("Customer", new Customer());
-    //  
     // }
+    
     //if we change the type from a normal entity to a generic one. The class FactoryCustomer itself must
     //be also marked as generic
     public static TAnyType Create(string typeCustomer)
@@ -37,16 +35,14 @@ public class FactoryDalLayer<TAnyType>
             //     new InjectionConstructor(new CustomerValidationAll()));
             // _unityContainerObjects.RegisterType<ICustomer, Lead>("Lead",
             //     new InjectionConstructor(new LeadValidation()));
-            
             //Todo wieder einfügen
-            
             //_unityContainerObjects.RegisterType<IDal<ICustomer>, CustomerDAL>("ADODal");
-            
-            _unityContainerObjects.RegisterType<IDal<CustomerBase>, EfCustomerDal>("EfDal");
+            _unityContainerObjects.RegisterType<IRepository<Customer>, EfRepository<Customer>>("EfDal");
+            // _unityContainerObjects.RegisterType<IUoW, AdoUoW>("AdoUoW");
+            _unityContainerObjects.RegisterType<IUoW, EfUoW>("EUoW");
             // _unityContainerObjects.RegisterType<IDal<ICustomer>, >("Lead", new InjectionConstructor(new LeadValidation()));
             // customers.Add("Lead", new Lead());
             // customers.Add("Customer", new Customer());
-
         }
 
         return _unityContainerObjects.Resolve<TAnyType>(typeCustomer, overrides: new ResolverOverride[]

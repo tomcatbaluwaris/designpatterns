@@ -3,8 +3,13 @@ using InterfaceDal;
 
 namespace AdoDotDataLayer;
 
-public class AdoNet<TAnyType> : IDal<TAnyType>
+public class AdoNet<TAnyType> : IRepository<TAnyType>
 {
+    public void SetUnitOfWork(IUoW uoW)
+    {
+        throw new NotImplementedException();
+    }
+
     public void Add(TAnyType obj)
     {
         throw new NotImplementedException();

@@ -1,15 +1,20 @@
-﻿namespace CommonDal
+﻿using InterfaceDal;
+
+namespace CommonDal
 {
-    public class AbstractDal<TAnyType> : InterfaceDal.IDal<TAnyType>
+    public abstract class Repository<TAnyType> : InterfaceDal.IRepository<TAnyType>
     {
         protected string ConnectionString = $"Server=DESKTOP-TJ8J7V7;Database=CustomerDB;Trusted_Connection=True;MultipleActiveResultSets=True";
 
-        public AbstractDal(string connectionString)
+        public Repository(string connectionString)
         {
             ConnectionString = connectionString;
         }
 
         protected List<TAnyType> AnyTypes = new List<TAnyType>();
+        public abstract void SetUnitOfWork(IUoW uoW);
+       
+
         public void Add(TAnyType obj)
         {
             AnyTypes.Add(obj);

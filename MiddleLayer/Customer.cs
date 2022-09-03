@@ -107,6 +107,11 @@ namespace MiddleLayer
             _validation = validation;
         }
 
+        public Customer() 
+        {
+            
+        }
+
         // public override void Validate()
         // {
         //     _validation.Validate(this);

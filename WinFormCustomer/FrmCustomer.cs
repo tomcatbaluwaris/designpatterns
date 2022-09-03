@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Windows.Forms;
+using EfDal;
 using FactoryCustomer;
 using FactoryDal;
 using InterfaceCustomer;
 using InterfaceDal;
+using MiddleLayer;
 
 namespace WinFormCustomer
 {
@@ -12,6 +14,8 @@ namespace WinFormCustomer
         // private ICustomer _customer;
         // private ICustomer _lead;
         private CustomerBase _customerBase;
+
+        private Customer _customer;
         // private IValidation<ICustomer> _validation;
 
         public FrmCustomer()
@@ -51,13 +55,20 @@ namespace WinFormCustomer
 
         private void SetCustomer()
         {
-            _customerBase.CustomerName = customerType.Text;
-            _customerBase.CustomerName = customerName.Text;
-            _customerBase.PhoneNumber = phoneNumber.Text;
-            _customerBase.BillAmount = Convert.ToDecimal(billAmount.Text);
+            // _customerBase.CustomerName = customerType.Text;
+            // _customerBase.CustomerName = customerName.Text;
+            // _customerBase.PhoneNumber = phoneNumber.Text;
+            // _customerBase.BillAmount = Convert.ToDecimal(billAmount.Text);
+            // // _customerBase.BillDate = Convert.ToDateTime(billDate.Text);
+            // _customerBase.BillDate = DateTime.Now;
+            // _customerBase.Address = address.Text;
+            _customer.Id = 1;
+            _customer.CustomerName = customerName.Text;
+            _customer.PhoneNumber = phoneNumber.Text;
+            _customer.BillAmount = Convert.ToDecimal(billAmount.Text);
             // _customerBase.BillDate = Convert.ToDateTime(billDate.Text);
-            _customerBase.BillDate = DateTime.Now;
-            _customerBase.Address = address.Text;
+            _customer.BillDate = DateTime.Now;
+            _customer.Address = address.Text;
 
         }
 
@@ -65,7 +76,7 @@ namespace WinFormCustomer
 
         private void customerType_SelectedIndexChanged(object sender, EventArgs e)
         {
-            _customerBase = FactoryCustomer.Factory<CustomerBase>.Create(customerType.Text);
+            _customer = FactoryCustomer.Factory<Customer>.Create(customerType.Text);
         }
 
         // private void button2_Click(object sender, EventArgs e)
@@ -76,14 +87,32 @@ namespace WinFormCustomer
         //     dal.Save();
         // }
         
-        private void button2_Click(object sender, EventArgs e)
+        private void addDal_Click(object sender, EventArgs e)
         {
-            SetCustomer();
+            //Unit of Work
+            EfUoW efUoW = (EfUoW)FactoryDalLayer<IUoW>.Create("EUoW");
+            try
+            {
+                SetCustomer();
+                // var dal = Factory<IRepository<CustomerBase>>.Create("ADODal");
+                // dal.SetUnitOfWork(uoW);
+                // dal.Add(_customerBase);
+                // dal.Save();
+                IRepository<Customer> efRepository = FactoryDalLayer<IRepository<Customer>>.Create("EfDal");
+                // IRepository<CustomerBase> repository = FactoryDalLayer<IRepository<CustomerBase>>.Create("EfDal");
+                
+                efRepository.SetUnitOfWork(efUoW);
+                efRepository.Add(_customer);
+                efRepository.Save();
+                // efUoW.Commit();
+            }
+            catch (Exception exception)
+            {
+                efUoW.Rollback();
+                Console.WriteLine(exception);
+                throw;
+            }
             
-            // var dal = Factory<IDal<ICustomer>>.Create("");
-            IDal<CustomerBase> dal = FactoryDalLayer<IDal<CustomerBase>>.Create("EfDal");
-            dal.Add(_customerBase);
-            dal.Save();
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)

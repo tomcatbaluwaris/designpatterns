@@ -398,6 +398,10 @@
       "InterfaceDal/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.7.0",
+          "System.Data.SqlClient": "4.8.1"
+        },
         "compile": {
           "bin/placeholder/InterfaceDal.dll": {}
         },

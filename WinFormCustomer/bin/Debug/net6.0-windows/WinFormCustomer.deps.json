@@ -229,6 +229,10 @@
         }
       },
       "InterfaceDal/1.0.0": {
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.7.0",
+          "System.Data.SqlClient": "4.8.3"
+        },
         "runtime": {
           "InterfaceDal.dll": {}
         }
